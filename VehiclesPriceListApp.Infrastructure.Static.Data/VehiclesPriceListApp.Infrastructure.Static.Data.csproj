@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VehiclesPriceListApp.Core\VehiclesPriceListApp.Core.csproj" />
+    <ProjectReference Include="..\VehiclesPriceListApp.Core.Entity\VehiclesPriceListApp.Core.Entity.csproj" />
+  </ItemGroup>
+</Project>
